@@ -1,0 +1,27 @@
+১.console tab utilities API লিখে গুগলে সার্চ দাও। তারপরেও সেই সার্চ রেজাল্টে গিয়ে ৩০-৪৫ মিনিট ধরে ধরে যা যা আছে সেগুলা পড়ো। 
+
+1. $_ return the most recent evaluated expression.
+
+2. $_.length return the most recetn evaluated expressions length.
+
+3. $0-$4 return the most recent 5 evaluated expression $0 means most recent $1 second most recent.
+
+4.$() use as a css dom selector quaryselector
+
+5.$$() quaryselectorAll
+
+6.clear() for clearing console 
+
+7. copy(object) copy to clicp board
+
+8.debug() work as a debug pointer
+
+9.dir(document.body) display the object-style
+
+10.inpect(head/body/h/p) use for inpect element . 
+
+11.getEventListeners(place name)
+
+12.monitor(which one you want to monitor) unmonitor
+
+13. monitorEvents() for watching events. unmonitorEvents
