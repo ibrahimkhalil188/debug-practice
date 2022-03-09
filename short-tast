@@ -1,0 +1,27 @@
+২.কিভাবে বুঝবে একটা বাটনে কোন একটা ইভেন্ট হ্যান্ডলার যোগ করা আছে কিনা? সেটা ডেভ টুল এর কোন কোন জায়গায় দেখা যায়। চিন্তা করে বা ডেভ টুল খুলে বের করার চেষ্টা করো।
+
+#Open your browser ==> open inpect tools ==> go element tab ==> look at the right side and find event listener ==> click event listener button and inpect your targeted sesction by inpect selector to see click hanlder
+
+৩.কিভাবে তুমি console ট্যাব-এর মধ্যে কোন একটা ফাংশনকে কল করে সেই ফাংশনের প্রথম লাইনে কোড ব্রেক করে ফেলবে। অর্থাৎ সেখানে গেলে কোড অটোমেটিক বন্ধ হয়ে যাবে।ক্লিক করে কোন ব্রেক পয়েন্ট যোগ করা লাগবে না?
+
+#just write debug keyword to break your function where you like to break.
+
+৪. একটা কন্ডিশনাল ব্রেক পয়েন্ট সেট করতে হয় কিভাবে? সেটা নিজে নিজে সেট করে ফেলো 
+
+#open inpect tool ==> go to source tab ==> select your breakPoint ==> Right Click ==> Click edit breackPoint ==> add your condition.
+
+৫. accessibility কি জিনিস?
+
+# accessibility means a quality being easy to use . web accessibility mean your web site is accessible for people with disabilities can use them .
+
+৬. call stack কি জিনিস? দরকার হলে গুগলে সার্চ দিয়ে শেখার চেষ্টা করো। 
+
+#call stack manage exicution context when js run code js enging run a gobal exicution context and then push it top of the stack whenever a function is call the function exicution context push to of the call stack then exicute the code by folowing last in first out LIFO rules.
+
+৭. Regular এক্সপ্রেশন কি জিনিস এইটা কি কাজে লাগে?
+
+#regular expreesion is a parten of some charecter which is specify seach or matching a partern of string.
+
+৮. Lighthouse ট্যাব দিয়ে কি করে?
+
+#lighthouse tab is used for check overal performace of a webpage . this tap make a report about webPage performace. 1. parformace 2.best Practice 3. seo 4. accessibility 
