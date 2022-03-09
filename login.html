@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+</head>
+
+<body>
+    <label for="gmail">Email<input id="email" type="gmail"></label><br>
+    <p id="sms"></p>
+    <button type="submit" onclick="textValidity()">Submit</button>
+</body>
+<script>
+    const textValidity = () => {
+        const input = document.getElementById("email").value
+        const code = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
+        const result = code.test(input)
+        if (result) {
+            document.getElementById("sms").innerHTML = "your email is ok"
+            document.getElementById("sms").style.color = "green"
+        } else {
+            document.getElementById("sms").innerHTML = "your email is wrong"
+            document.getElementById("sms").style.color = "red"
+        }
+    }
+</script>
+
+</html>
